@@ -54,7 +54,7 @@ class MainActivity : AppCompatActivity() {
         super.onStart()
         showAlertCovid19()
     }
-    
+
     // alert covid-19 message
     private fun showAlertCovid19() {
         Alerter.create(this)
