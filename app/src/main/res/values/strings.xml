@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">Takara</string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="share_this_app">Partager l\'appli</string>
+    <string name="view_on_google_play">Voir Play Store</string>
+    <string name="view_source_code">Voir code source</string>
+    <string name="open_source_licenses">Licenses open sources</string>
+    <string name="choose_theme">Choisir Theme</string>
+    <string name="faq">Foire aux questions</string>
+    <string name="calendar">Calendrier</string>
+    <string name="candidates">Candidats</string>
+    <string name="results">Resultas</string>
+    <string name="about">Info</string>
+
+    <string name="expanded">Expanded</string>
+    <string name="collapsed">Collapsed</string>
+
+    <!-- FAQ -->
+    <string name="comment_voter">Comment voter lorsqu’on est en déplacement le jour du vote ?</string>
+    <string name="comment_voter_rep">La réponse à la question 5 est valable ici.</string>
+    <string name="faq_conditions_de_inscription">Dans quelles conditions je m’inscris sur une liste additive ?</string>
+    <string name="faq_conditions_rep">Partout au Niger, pour voter dans le cadre des élections Présidentielles.\n Partout dans la région où on a été recensé, pour voter aux législatives.\n Partout dans la commune où on a été recensé, pour voter aux élections locales;</string>
+    <string name="faq_manque_carte_electeur">Je suis inscrit mais je n’ai pas ma carte d’électeur. Comment faire pour voter ?</string>
+    <string name="faq_manque_carte_electeur_rep">Dans ce cas, il suffit de se présenter dans son bureau de vote muni d’une des pièces citées à la question 1.</string>
+    <string name="faq_modalites_de_vote">Modalités de vote.</string>
+    <string name="faq_modalites_de_vote_rep">Le vote est personnel est secret.\n Le choix de l’électeur est libre.\n Nul ne peut être influencé dans son choix par la contrainte, la menace ou la violence.</string>
+    <string name="faq_horaires_bureaux_de_vote">Quels sont les horaires d’ouverture des bureaux de vote ?.</string>
+    <string name="faq_horaires_bureaux_de_vote_rep">Sauf modifications, le scrutin est ouvert à huit (8) heures et clos le même jour à dix-neuf (19) heures.\n Toutefois, la CENI peut, pour faciliter aux électeurs l’exercice de leur droit de vote, avancer l’heure d’ouverture ou retarder l’heure de la clôture dans certaines circonscriptions électorales.\n Aucun bureau de vote ne peut être ouvert ou fermé avant l’heure officielle.\n Dans tous les cas, les électeurs présents devant le bureau de vote doivent voter.</string>
+    <string name="faq_documents_de_vote">Quels sont les documents dont j’ai besoin pour voter ?</string>
+    <string name="faq_documents_de_vote_rep">carte nationale d’identité.\n Passeport.\n Permis de conduire.\n Carte militaire ou carte d’agent des forces de sécurité.\n Livret de pension civile ou militaire.\n Livret ou carte de famille.</string>
+    <string name="coming_soon">Les resultats seront bientot disponible</string>
+
+</resources>

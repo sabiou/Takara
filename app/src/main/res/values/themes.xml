@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!--  Base application theme.  -->
+    <style name="Theme.Takaraapp" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!--  Primary brand color.  -->
+        <item name="colorPrimary">@color/orange_500</item>
+        <item name="colorPrimaryVariant">@color/orange_700</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="fontFamily">@font/lato</item>
+        <!--  Secondary brand color.  -->
+        <item name="colorSecondary">@color/orange_500</item>
+        <item name="colorSecondaryVariant">@color/orange_700</item>
+        <item name="colorOnSecondary">@color/white</item>
+        <!--  Status bar color.  -->
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+        <!--  Customize your theme here.  -->
+    </style>
+    <style name="Widget.Takara" parent="@android:style/Widget.Material"/>
+    <style name="TextAppearance.Takara.ListPrimary" parent="TextAppearance.MaterialComponents.Body1">
+        <item name="android:fontFamily">@font/lato</item>
+        <item name="android:letterSpacing">0</item>
+        <item name="fontFamily">@font/lato</item>
+    </style>
+    <style name="TextAppearance.Takara.CollapsibleCard" parent="@style/TextAppearance.Takara.ListPrimary">
+        <item name="android:textColor">?colorPrimaryVariant</item>
+    </style>
+    <style name="Widget.Takara.MultilineBody">
+        <item name="android:lineSpacingExtra">4sp</item>
+        <item name="android:textColor">?android:textColorSecondary</item>
+    </style>
+</resources>

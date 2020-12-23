@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/nav_graph_calendar"
+        android:title="@string/calendar"
+        android:icon="@drawable/ic_baseline_date_range_24"/>
+    <item android:id="@+id/nav_graph_candidates"
+        android:title="@string/candidates"
+        android:icon="@drawable/ic_baseline_people_alt_24"/>
+    <item android:id="@+id/nav_graph_results"
+        android:title="@string/results"
+        android:icon="@drawable/ic_baseline_how_to_vote_24"/>
+    <item android:id="@+id/nav_graph_info"
+        android:title="@string/about"
+        android:icon="@drawable/ic_baseline_info_24"/>
+</menu>

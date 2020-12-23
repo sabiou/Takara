@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/scroll_view"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:clipToPadding="false"
+    android:paddingTop="@dimen/margin_normal"
+    android:paddingBottom="@dimen/margin_normal"
+    android:scrollbarStyle="insideOverlay"
+    android:scrollbars="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <dev.farouk.takara.ui.widgets.CollapsibleCard
+            android:id="@+id/faq_comment_voter"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_small"
+            app:cardDescription="@string/comment_voter_rep"
+            app:cardTitle="@string/comment_voter" />
+
+        <dev.farouk.takara.ui.widgets.CollapsibleCard
+            android:id="@+id/faq_conditions_vote"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_small"
+            app:cardDescription="@string/faq_conditions_rep"
+            app:cardTitle="@string/faq_conditions_de_inscription" />
+
+        <dev.farouk.takara.ui.widgets.CollapsibleCard
+            android:id="@+id/faq_manque_carte"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_small"
+            app:cardDescription="@string/faq_manque_carte_electeur_rep"
+            app:cardTitle="@string/faq_manque_carte_electeur" />
+
+        <dev.farouk.takara.ui.widgets.CollapsibleCard
+            android:id="@+id/faq_modalite"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_small"
+            app:cardDescription="@string/faq_modalites_de_vote_rep"
+            app:cardTitle="@string/faq_modalites_de_vote" />
+
+        <dev.farouk.takara.ui.widgets.CollapsibleCard
+            android:id="@+id/faq_horaires"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_small"
+            app:cardDescription="@string/faq_horaires_bureaux_de_vote_rep"
+            app:cardTitle="@string/faq_horaires_bureaux_de_vote" />
+
+        <dev.farouk.takara.ui.widgets.CollapsibleCard
+            android:id="@+id/faq_documents"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_small"
+            app:cardDescription="@string/faq_documents_de_vote_rep"
+            app:cardTitle="@string/faq_documents_de_vote" />
+
+    </LinearLayout>
+
+</androidx.core.widget.NestedScrollView>

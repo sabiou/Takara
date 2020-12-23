@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph_candidates"
+    app:startDestination="@id/candidatesFragment">
+
+    <fragment
+        android:id="@+id/candidatesFragment"
+        android:name="dev.farouk.takara.ui.CandidatesFragment"
+        android:label="fragment_candidates"
+        tools:layout="@layout/fragment_candidates" />
+</navigation>
