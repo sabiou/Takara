@@ -1,15 +1,14 @@
 package dev.farouk.takara.ui
 
 import android.os.Bundle
-import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.core.view.doOnPreDraw
+import androidx.fragment.app.Fragment
 import androidx.navigation.fragment.findNavController
 import com.google.android.material.transition.MaterialFadeThrough
 import dev.chrisbanes.insetter.applySystemWindowInsetsToPadding
-import dev.farouk.takara.R
 import dev.farouk.takara.databinding.FragmentAboutBinding
 
 class AboutFragment : Fragment() {
@@ -30,7 +29,7 @@ class AboutFragment : Fragment() {
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
-    ): View? {
+    ): View {
         // Inflate the layout for this fragment
         _binding = FragmentAboutBinding.inflate(inflater, container, false)
         return binding.root

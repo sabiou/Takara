@@ -1,14 +1,14 @@
 package dev.farouk.takara.ui
 
 import android.os.Bundle
-import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import androidx.fragment.app.Fragment
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
-import dev.farouk.takara.databinding.FragmentCalendarBinding
 import dev.farouk.takara.data.model.Event
+import dev.farouk.takara.databinding.FragmentCalendarBinding
 import dev.farouk.takara.ui.adapters.CalendarAdapter
 
 class CalendarFragment : Fragment() {
@@ -23,7 +23,7 @@ class CalendarFragment : Fragment() {
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
-    ): View? {
+    ): View {
         // Inflate the layout for this fragment
         _binding = FragmentCalendarBinding.inflate(inflater, container, false)
 
@@ -47,7 +47,7 @@ class CalendarFragment : Fragment() {
         dataList.add(Event("28/02/2021","Proclamation des résultats définitifs - présidentielle 2nd tour"))
     }
 
-    fun subscribeUi() {
+    private fun subscribeUi() {
         layoutManager = LinearLayoutManager(context, RecyclerView.VERTICAL, false)
         binding.events.layoutManager = layoutManager
         adapter = CalendarAdapter(dataList)

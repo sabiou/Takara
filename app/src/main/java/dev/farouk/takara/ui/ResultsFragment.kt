@@ -1,11 +1,10 @@
 package dev.farouk.takara.ui
 
 import android.os.Bundle
-import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import dev.farouk.takara.R
+import androidx.fragment.app.Fragment
 import dev.farouk.takara.databinding.FragmentResultsBinding
 
 class ResultsFragment : Fragment() {
@@ -20,7 +19,7 @@ class ResultsFragment : Fragment() {
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
-    ): View? {
+    ): View {
         // Inflate the layout for this fragment
         _binding = FragmentResultsBinding.inflate(inflater, container, false)
         context ?: return binding.root
