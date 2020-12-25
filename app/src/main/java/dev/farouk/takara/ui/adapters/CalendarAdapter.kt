@@ -2,6 +2,8 @@ package dev.farouk.takara.ui.adapters
 
 import android.view.LayoutInflater
 import android.view.ViewGroup
+import androidx.recyclerview.widget.DiffUtil
+import androidx.recyclerview.widget.ListAdapter
 import androidx.recyclerview.widget.RecyclerView
 import com.github.vipulasri.timelineview.TimelineView
 import dev.farouk.takara.databinding.ItemEventBinding
@@ -10,8 +12,7 @@ import dev.farouk.takara.data.model.Event
 /**
  * Created by Farouk on 17/12/2020.
  */
-class CalendarAdapter(private val data: List<Event>):
-    RecyclerView.Adapter<CalendarAdapter.CalendarViewHolder>() {
+class CalendarAdapter: ListAdapter<Event, RecyclerView.ViewHolder>(EventDiffCallBack()) {
 
     private lateinit var mLayoutInflater: LayoutInflater
 
@@ -29,24 +30,36 @@ class CalendarAdapter(private val data: List<Event>):
                 parent, false), viewType)
     }
 
-    override fun onBindViewHolder(holder: CalendarViewHolder, position: Int) {
-        val event = data[position]
-        // date
-        holder.date.text = event.date
-        // title
-        holder.title.text = event.title
+    override fun onBindViewHolder(holder: RecyclerView.ViewHolder, position: Int) {
+        val event = getItem(position)
+        (holder as CalendarViewHolder).bind(event)
     }
 
-    override fun getItemCount(): Int = data.size
+    inner class CalendarViewHolder(private val binding: ItemEventBinding, viewType: Int)
+        : RecyclerView.ViewHolder(binding.root) {
 
-    inner class CalendarViewHolder(itemView: ItemEventBinding, viewType: Int)
-        : RecyclerView.ViewHolder(itemView.root) {
-        val date = itemView.textTimelineDate
-        val title = itemView.textTimelineTitle
-        private val timeline = itemView.timeline
+        fun bind(item: Event) {
+            binding.apply {
+                event = item
+                executePendingBindings()
+            }
+        }
+
+        private val timeline = binding.timeline
 
         init {
             timeline.initLine(viewType)
         }
+    }
+
+    private class EventDiffCallBack : DiffUtil.ItemCallback<Event>() {
+        override fun areItemsTheSame(oldItem: Event, newItem: Event): Boolean {
+            return oldItem.id == newItem.id
+        }
+
+        override fun areContentsTheSame(oldItem: Event, newItem: Event): Boolean {
+            return oldItem == newItem
+        }
+
     }
 }

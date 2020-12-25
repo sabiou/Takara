@@ -15,7 +15,7 @@ import kotlinx.coroutines.coroutineScope
 /**
  * Created by Farouk on 20/12/2020.
  */
-class DbWorker(context: Context, workerParameters: WorkerParameters) :
+class CandidatesDataWorker(context: Context, workerParameters: WorkerParameters) :
     CoroutineWorker(context, workerParameters) {
     override suspend fun doWork(): Result = coroutineScope {
         try {
@@ -27,7 +27,6 @@ class DbWorker(context: Context, workerParameters: WorkerParameters) :
                     // insert all in the database
                     val db = TakaraDatabase.getInstance(applicationContext)
                     db.candidateDao().insertAll(candidatesList)
-
                     Result.success()
                 }
             }

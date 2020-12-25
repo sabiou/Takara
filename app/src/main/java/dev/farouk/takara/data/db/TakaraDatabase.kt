@@ -9,14 +9,17 @@ import androidx.work.OneTimeWorkRequestBuilder
 import androidx.work.WorkManager
 import dev.farouk.takara.DATABASE_NAME
 import dev.farouk.takara.data.model.Candidate
-import dev.farouk.takara.workmanager.DbWorker
+import dev.farouk.takara.data.model.Event
+import dev.farouk.takara.workmanager.CandidatesDataWorker
+import dev.farouk.takara.workmanager.EventDataWorker
 
 /**
  * Created by Farouk on 20/12/2020.
  */
-@Database(entities = [Candidate::class], version = 1, exportSchema = false)
+@Database(entities = [Candidate::class, Event::class], version = 2, exportSchema = false)
 abstract class TakaraDatabase : RoomDatabase() {
     abstract fun candidateDao(): CandidateDao
+    abstract fun eventDao(): EventDao
 
     companion object {
         @Volatile
@@ -34,11 +37,16 @@ abstract class TakaraDatabase : RoomDatabase() {
                     object : RoomDatabase.Callback() {
                         override fun onCreate(db: SupportSQLiteDatabase) {
                             super.onCreate(db)
-                            val request = OneTimeWorkRequestBuilder<DbWorker>().build()
-                            WorkManager.getInstance(context).enqueue(request)
+                            val eventDataWorkRequest = OneTimeWorkRequestBuilder<EventDataWorker>().build()
+                            val candidatesDataWorkRequest = OneTimeWorkRequestBuilder<CandidatesDataWorker>().build()
+                            WorkManager.getInstance(context)
+                                .beginWith(eventDataWorkRequest)
+                                .then(candidatesDataWorkRequest)
+                                .enqueue()
                         }
                     }
                 )
+                .fallbackToDestructiveMigration()
                 .build()
         }
     }

@@ -1,57 +1,69 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
-    android:layout_height="wrap_content"
-    android:layout_marginLeft="10dp"
-    android:layout_marginRight="10dp"
-    android:orientation="horizontal">
+    xmlns:tools="http://schemas.android.com/tools">
 
-    <com.github.vipulasri.timelineview.TimelineView
-        android:id="@+id/timeline"
-        android:layout_width="wrap_content"
-        android:layout_height="match_parent"
-        app:endLineColor="@color/orange_200"
-        app:lineStyle="normal"
-        app:lineWidth="2dp"
-        app:markerSize="15dp"
-        app:startLineColor="@color/orange_200" />
+    <data>
+        <variable
+            name="event"
+            type="dev.farouk.takara.data.model.Event" />
+    </data>
 
-    <com.google.android.material.card.MaterialCardView
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_gravity="center_vertical"
-        android:layout_marginStart="10dp"
-        android:layout_marginTop="10dp"
-        android:layout_marginEnd="5dp"
-        android:layout_marginBottom="10dp"
-        app:cardCornerRadius="10dp"
-        app:contentPadding="15dp">
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:orientation="horizontal">
 
-        <LinearLayout
+        <com.github.vipulasri.timelineview.TimelineView
+            android:id="@+id/timeline"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            app:endLineColor="@color/orange_200"
+            app:lineStyle="normal"
+            app:lineWidth="2dp"
+            app:markerSize="15dp"
+            app:startLineColor="@color/orange_200" />
+
+        <com.google.android.material.card.MaterialCardView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            android:gravity="center"
-            android:orientation="vertical">
+            android:layout_gravity="center_vertical"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="5dp"
+            android:layout_marginBottom="10dp"
+            app:cardCornerRadius="10dp"
+            app:contentPadding="15dp">
 
-            <androidx.appcompat.widget.AppCompatTextView
-                android:id="@+id/text_timeline_date"
+            <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:textSize="12sp"
-                tools:text="@sample/event_date" />
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:orientation="vertical">
 
-            <androidx.appcompat.widget.AppCompatTextView
-                android:id="@+id/text_timeline_title"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="5dp"
-                tools:text="@sample/event_title" />
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:id="@+id/text_timeline_date"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="12sp"
+                    android:text="@{event.date}"
+                    tools:text="@sample/event_date" />
 
-        </LinearLayout>
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:id="@+id/text_timeline_title"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:text="@{event.title}"
+                    tools:text="@sample/event_title" />
 
-    </com.google.android.material.card.MaterialCardView>
+            </LinearLayout>
 
-</LinearLayout>
+        </com.google.android.material.card.MaterialCardView>
+
+    </LinearLayout>
+
+</layout>
