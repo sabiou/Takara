@@ -9,5 +9,5 @@
         android:id="@+id/resultsFragment"
         android:name="dev.farouk.takara.ui.ResultsFragment"
         android:label="fragment_results"
-        tools:layout="@layout/fragment_results" />
+        tools:layout="@layout/fragment_results_view_pager" />
 </navigation>

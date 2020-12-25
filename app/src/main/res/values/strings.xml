@@ -30,5 +30,8 @@
     <string name="faq_documents_de_vote">Quels sont les documents dont j’ai besoin pour voter ?</string>
     <string name="faq_documents_de_vote_rep">carte nationale d’identité.\n Passeport.\n Permis de conduire.\n Carte militaire ou carte d’agent des forces de sécurité.\n Livret de pension civile ou militaire.\n Livret ou carte de famille.</string>
     <string name="coming_soon">Les resultats seront bientot disponible</string>
+    <string name="presidential">Presidentielle</string>
+    <string name="legislative">Legislatives</string>
+    <string name="not_available_yet">Resultats non disponibles pour le moment</string>
 
 </resources>
