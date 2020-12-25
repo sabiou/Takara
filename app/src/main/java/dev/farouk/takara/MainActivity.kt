@@ -61,8 +61,8 @@ class MainActivity : AppCompatActivity() {
             .setTitle("Info COVID-19 !")
             .setIcon(R.drawable.ic_baseline_coronavirus_24)
             .setBackgroundColorRes(R.color.orange_200)
-            .setDuration(15000)
-            .setText("Le virus continue toujours de circuler Il et impératif de respecter les gestes barrières afin de réduire sa propagation. N'oubliez pas de porter votre masque le jour du scrutin")
+            .setDuration(10000)
+            .setText("Le virus continue toujours de circuler. Il et impératif de respecter les gestes barrières afin de réduire sa propagation. N'oubliez pas de porter votre masque le jour du scrutin")
             .show()
     }
 }
