@@ -15,9 +15,11 @@ For more resources on learning Android development, visit the
 Screenshots
 -----------
 
-![Coming](screenshots/phone_plant_list.png "A list of plants")
-![Coming](screenshots/phone_plant_detail.png "Details for a specific plant")
-![Coming](screenshots/phone_my_garden.png "Plants that have been added to your garden")
+<br>
+
+| Calendrier | FAQ | Candidats | Resultats |
+| ------ | ----- | ------ | ----- |
+| ![Calendrier](screenshots/Screenshot-cal.png) | ![FAQ](screenshots/Screenshot-faq.png) | ![Resultats](screenshots/Screenshot-resul.png) | ![Candidats](screenshots/Screenshot-cand.png) |
 
 Libraries Used
 --------------
