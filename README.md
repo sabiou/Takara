@@ -19,7 +19,7 @@ Screenshots
 
 | Calendrier | FAQ | Resultats | Candidats |
 | ------ | ----- | ------ | ----- |
-| ![Calendrier](screenshots/Screenshot-cal.png) | ![FAQ](screenshots/Screenshot-faq.png) | ![Resultats](screenshots/Screenshot-resul.png) | ![Candidats](screenshots/Screenshot-cand.png) |
+| ![Calendrier](screenshots/Screenshot-cal.png) | ![FAQ](screenshots/Screenshot-faq.png) | ![Resultats](screenshots/Screenshot-resul.png) | ![Candidats](screenshots/Screenshot-can.png) |
 
 Libraries Used
 --------------
