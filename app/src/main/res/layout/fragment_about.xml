@@ -32,33 +32,6 @@
                 android:textStyle="bold"/>
 
             <Button
-                android:id="@+id/viewOnGooglePlay"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                style="@style/Widget.MaterialComponents.Button.TextButton"
-                android:text="@string/view_on_google_play"
-                android:textAllCaps="false"
-                android:textStyle="bold"/>
-
-            <Button
-                android:id="@+id/viewSourceCode"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="@string/view_source_code"
-                android:textAllCaps="false"
-                android:textStyle="bold"
-                style="@style/Widget.MaterialComponents.Button.TextButton" />
-
-            <Button
-                android:id="@+id/openSourceLicenses"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                style="@style/Widget.MaterialComponents.Button.TextButton"
-                android:text="@string/open_source_licenses"
-                android:textAllCaps="false"
-                android:textStyle="bold"/>
-
-            <Button
                 android:id="@+id/chooseTheme"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -75,6 +48,29 @@
                 android:textStyle="bold"
                 style="@style/Widget.MaterialComponents.Button.TextButton"
                 app:layout_constraintTop_toTopOf="parent" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:background="@color/orange_200"/>
+
+            <Button
+                android:id="@+id/openSourceLicenses"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                style="@style/Widget.MaterialComponents.Button.TextButton"
+                android:text="@string/open_source_licenses"
+                android:textAllCaps="false"
+                android:textStyle="bold"/>
+
+            <Button
+                android:id="@+id/viewSourceCode"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/view_source_code"
+                android:textAllCaps="false"
+                android:textStyle="bold"
+                style="@style/Widget.MaterialComponents.Button.TextButton" />
 
         </LinearLayout>
 
