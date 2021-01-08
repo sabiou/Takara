@@ -2,151 +2,211 @@
   {
     "name": "M. Abdallah Souleymane",
     "party": "NIGERENA",
-    "imageUrl": "https://raw.githubusercontent.com/sabiou/Takara/master/candidats-img/28.jpg"
+    "imageUrl": "https://raw.githubusercontent.com/sabiou/Takara/master/candidats-img/28.jpg",
+    "votersTally": "14255",
+    "percentage": "0.3%"
   },
   {
     "name": "M. Abdoul Kadri Oumarou Alfa",
     "party": "Groupement GAYYA ZABBE",
-    "imageUrl": "https://raw.githubusercontent.com/sabiou/Takara/master/candidats-img/30.jpg"
+    "imageUrl": "https://raw.githubusercontent.com/sabiou/Takara/master/candidats-img/30.jpg",
+    "votersTally": "28866",
+    "percentage": "0.6%"
   },
   {
     "name": "M. Albadé Abouba",
     "party": "MPR-Jamhuriya",
-    "imageUrl": "https://raw.githubusercontent.com/sabiou/Takara/master/candidats-img/22.jpg"
+    "imageUrl": "https://raw.githubusercontent.com/sabiou/Takara/master/candidats-img/22.jpg",
+    "votersTally": "337866",
+    "percentage": "7.07%"
   },
   {
     "name": "M. Amadou Boubacar Cissé",
     "party": "UDR TABBAT",
-    "imageUrl": "https://raw.githubusercontent.com/sabiou/Takara/master/candidats-img/25.jpg"
+    "imageUrl": "https://raw.githubusercontent.com/sabiou/Takara/master/candidats-img/25.jpg",
+    "votersTally": "16798",
+    "percentage": "0.35%"
   },
   {
     "name": "M. Amadou Issoufou Saïdou",
     "party": "Independant",
-    "imageUrl": "https://raw.githubusercontent.com/sabiou/Takara/master/candidats-img/12.jpg"
+    "imageUrl": "https://raw.githubusercontent.com/sabiou/Takara/master/candidats-img/12.jpg",
+    "votersTally": "20160",
+    "percentage": "0.42%"
   },
   {
     "name": "M. Amadou Ousmane",
     "party": "ADEN Karkara",
-    "imageUrl": "https://raw.githubusercontent.com/sabiou/Takara/master/candidats-img/3.jpg"
+    "imageUrl": "https://raw.githubusercontent.com/sabiou/Takara/master/candidats-img/3.jpg",
+    "votersTally": "63299",
+    "percentage": "1.32%"
   },
   {
     "name": "M. Djibril Baré Maïnassara",
     "party": "UDFP Sawaba",
-    "imageUrl": "https://raw.githubusercontent.com/sabiou/Takara/master/candidats-img/7.jpg"
+    "imageUrl": "https://raw.githubusercontent.com/sabiou/Takara/master/candidats-img/7.jpg",
+    "votersTally": "17182",
+    "percentage": "0.36%"
   },
   {
     "name": "M. Hamidou Mamadou Abdou",
     "party": "RANAA",
-    "imageUrl": "https://raw.githubusercontent.com/sabiou/Takara/master/candidats-img/2.jpg"
+    "imageUrl": "https://raw.githubusercontent.com/sabiou/Takara/master/candidats-img/2.jpg",
+    "votersTally": "35907",
+    "percentage": "0.75%"
   },
   {
     "name": "M. Hassane Barazé Moussa",
     "party": "ANDP-Zaman Lahiya",
-    "imageUrl": "https://raw.githubusercontent.com/sabiou/Takara/master/candidats-img/9.jpg"
+    "imageUrl": "https://raw.githubusercontent.com/sabiou/Takara/master/candidats-img/9.jpg",
+    "votersTally": "114865",
+    "percentage": "2.4%"
   },
   {
     "name": "M. Ibrahim Gado",
     "party": "CRPD-SULHU",
-    "imageUrl": "https://raw.githubusercontent.com/sabiou/Takara/master/candidats-img/11.jpg"
+    "imageUrl": "https://raw.githubusercontent.com/sabiou/Takara/master/candidats-img/11.jpg",
+    "votersTally": "39253",
+    "percentage": "0.82%"
   },
   {
     "name": "M. Ibrahim Yacouba",
     "party": "MPN Kishin Kassa",
-    "imageUrl": "https://raw.githubusercontent.com/sabiou/Takara/master/candidats-img/29.jpg"
+    "imageUrl": "https://raw.githubusercontent.com/sabiou/Takara/master/candidats-img/29.jpg",
+    "votersTally": "257151",
+    "percentage": "5.38%"
   },
   {
     "name": "M. Idi Ango Ousmane",
     "party": "ADR-Mahita",
-    "imageUrl": "https://raw.githubusercontent.com/sabiou/Takara/master/candidats-img/8.jpg"
+    "imageUrl": "https://raw.githubusercontent.com/sabiou/Takara/master/candidats-img/8.jpg",
+    "votersTally": "55992",
+    "percentage": "1.17%"
   },
   {
     "name": "M. Idrissa Issoufou",
     "party": "MCD, Jarumin Talakawa",
-    "imageUrl": "https://raw.githubusercontent.com/sabiou/Takara/master/candidats-img/24.jpg"
+    "imageUrl": "https://raw.githubusercontent.com/sabiou/Takara/master/candidats-img/24.jpg",
+    "votersTally": "16963",
+    "percentage": "0.35%"
   },
   {
     "name": "M. Intinicar Alhassane",
     "party": "PNPD AKAL KASSA",
-    "imageUrl": "https://raw.githubusercontent.com/sabiou/Takara/master/candidats-img/13.jpg"
+    "imageUrl": "https://raw.githubusercontent.com/sabiou/Takara/master/candidats-img/13.jpg",
+    "votersTally": "30937",
+    "percentage": "0.65%"
   },
   {
     "name": "M. Ismael Oumarou Idé",
     "party": "FANN-Niger",
-    "imageUrl": "https://raw.githubusercontent.com/sabiou/Takara/master/candidats-img/26.jpg"
+    "imageUrl": "https://raw.githubusercontent.com/sabiou/Takara/master/candidats-img/26.jpg",
+    "votersTally": "12041",
+    "percentage": "0.25%"
   },
   {
     "name": "M. Kané Kadaouré Habibou",
     "party": "SDR-Sabuwa",
-    "imageUrl": "https://raw.githubusercontent.com/sabiou/Takara/master/candidats-img/6.jpg"
+    "imageUrl": "https://raw.githubusercontent.com/sabiou/Takara/master/candidats-img/6.jpg",
+    "votersTally": "27100",
+    "percentage": "0.57%"
   },
   {
     "name": "M. Mahaman Hamissou Moumouni",
     "party": "PJD-Hakika",
-    "imageUrl": "https://raw.githubusercontent.com/sabiou/Takara/master/candidats-img/18.jpg"
+    "imageUrl": "https://raw.githubusercontent.com/sabiou/Takara/master/candidats-img/18.jpg",
+    "votersTally": "18 546",
+    "percentage": "0.39%"
   },
   {
     "name": "M. Mahamane Ousmane",
     "party": "RDR Tchanji",
-    "imageUrl": "https://raw.githubusercontent.com/sabiou/Takara/master/candidats-img/1.jpg"
+    "imageUrl": "https://raw.githubusercontent.com/sabiou/Takara/master/candidats-img/1.jpg",
+    "votersTally": "811 838",
+    "percentage": "16.99%"
   },
   {
     "name": "M. Mamadou Doulla Talata",
     "party": "RSP A’Adili",
-    "imageUrl": "https://raw.githubusercontent.com/sabiou/Takara/master/candidats-img/10.jpg"
+    "imageUrl": "https://raw.githubusercontent.com/sabiou/Takara/master/candidats-img/10.jpg",
+    "votersTally": "16725",
+    "percentage": "0.35%"
   },
   {
     "name": "M. Bazoum Mohamed",
     "party": "PNDS Tarayya",
-    "imageUrl": "https://raw.githubusercontent.com/sabiou/Takara/master/candidats-img/16.jpg"
+    "imageUrl": "https://raw.githubusercontent.com/sabiou/Takara/master/candidats-img/16.jpg",
+    "votersTally": "1879543",
+    "percentage": "39.33%"
   },
   {
     "name": "M. Mounkaila Issa",
     "party": "RNDP- Aneima Bani zoumbou",
-    "imageUrl": "https://raw.githubusercontent.com/sabiou/Takara/master/candidats-img/27.jpg"
+    "imageUrl": "https://raw.githubusercontent.com/sabiou/Takara/master/candidats-img/27.jpg",
+    "votersTally": "38197",
+    "percentage": "0.8%"
   },
   {
     "name": "M. Moustapha Mamadou Moustapha",
     "party": "PRPN Haskin Gari",
-    "imageUrl": "https://raw.githubusercontent.com/sabiou/Takara/master/candidats-img/14.jpg"
+    "imageUrl": "https://raw.githubusercontent.com/sabiou/Takara/master/candidats-img/14.jpg",
+    "votersTally": "20309",
+    "percentage": "0.43%"
   },
   {
     "name": "M. Nayoussa Nassirou",
     "party": "CDPS Cigaban Kassa",
-    "imageUrl": "https://raw.githubusercontent.com/sabiou/Takara/master/candidats-img/20.jpg"
+    "imageUrl": "https://raw.githubusercontent.com/sabiou/Takara/master/candidats-img/20.jpg",
+    "votersTally": "41640",
+    "percentage": "0.87%"
   },
   {
     "name": "M. Omar Hamidou Tchiana",
     "party": "AMEN-AMIN",
-    "imageUrl": "https://raw.githubusercontent.com/sabiou/Takara/master/candidats-img/15.jpg"
+    "imageUrl": "https://raw.githubusercontent.com/sabiou/Takara/master/candidats-img/15.jpg",
+    "votersTally": "76295",
+    "percentage": "1.6%"
   },
   {
     "name": "M. Oumarou Abdourahamane",
     "party": "UNPP Incin Africa",
-    "imageUrl": "https://raw.githubusercontent.com/sabiou/Takara/master/candidats-img/21.jpg"
+    "imageUrl": "https://raw.githubusercontent.com/sabiou/Takara/master/candidats-img/21.jpg",
+    "votersTally": "20445",
+    "percentage": "0.43%"
   },
   {
     "name": "M. Oumarou Malam Alma",
     "party": "RPP-Farilla",
-    "imageUrl": "https://raw.githubusercontent.com/sabiou/Takara/master/candidats-img/17.jpg"
+    "imageUrl": "https://raw.githubusercontent.com/sabiou/Takara/master/candidats-img/17.jpg",
+    "votersTally": "118038",
+    "percentage": "2.47%"
   },
   {
     "name": "M. Sagbo Adolphe",
     "party": "PS Imani",
-    "imageUrl": "https://raw.githubusercontent.com/sabiou/Takara/master/candidats-img/23.jpg"
+    "imageUrl": "https://raw.githubusercontent.com/sabiou/Takara/master/candidats-img/23.jpg",
+    "votersTally": "17029",
+    "percentage": "0.36%"
   },
   {
     "name": "M. Salou Djibo",
     "party": "PJP-Génération Doubara",
-    "imageUrl": "https://raw.githubusercontent.com/sabiou/Takara/master/candidats-img/19.jpg"
+    "imageUrl": "https://raw.githubusercontent.com/sabiou/Takara/master/candidats-img/19.jpg",
+    "votersTally": "142656",
+    "percentage": "2.99%"
   },
   {
     "name": "M. Seini Oumarou",
     "party": "MNSD-Nassara",
-    "imageUrl": "https://raw.githubusercontent.com/sabiou/Takara/master/candidats-img/5.jpg"
+    "imageUrl": "https://raw.githubusercontent.com/sabiou/Takara/master/candidats-img/5.jpg",
+    "votersTally": "427623",
+    "percentage": "8.95%"
   },
   {
     "name": "M. Souleymane Garba",
     "party": "PNC Mulura",
-    "imageUrl": "https://raw.githubusercontent.com/sabiou/Takara/master/candidats-img/4.jpg"
+    "imageUrl": "https://raw.githubusercontent.com/sabiou/Takara/master/candidats-img/4.jpg",
+    "votersTally": "61054",
+    "percentage": "1.28%"
   }
 ]
