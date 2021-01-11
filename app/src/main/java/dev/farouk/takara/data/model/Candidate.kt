@@ -12,5 +12,7 @@ data class Candidate(
     val id: Int,
     val name: String,
     val party: String,
-    val imageUrl: String? = ""
+    val imageUrl: String? = "",
+    val votersTally: Int = 0,
+    val percentage: String = ""
 )
