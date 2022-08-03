@@ -31,21 +31,6 @@ class MainActivity : AppCompatActivity() {
         if (savedInstanceState == null) {
             setupBottomNavigationBar()
         }
-        subscribeUi()
-    }
-
-    private fun subscribeUi() {
-        viewModel.darkThemeEnabled.observe(this) { nightModeActive ->
-            this.isOnNightMode = nightModeActive
-
-            val defaultMode = if (nightModeActive) {
-                AppCompatDelegate.MODE_NIGHT_YES
-            } else {
-                AppCompatDelegate.MODE_NIGHT_NO
-            }
-
-            AppCompatDelegate.setDefaultNightMode(defaultMode)
-        }
     }
 
     override fun onRestoreInstanceState(savedInstanceState: Bundle) {
@@ -89,27 +74,5 @@ class MainActivity : AppCompatActivity() {
             .setDuration(10000)
             .setText("Le virus continue toujours de circuler. Il et impératif de respecter les gestes barrières afin de réduire sa propagation. N'oubliez pas de porter votre masque le jour du scrutin")
             .show()
-    }
-
-
-    override fun onCreateOptionsMenu(menu: Menu?): Boolean {
-        menuInflater.inflate(R.menu.menu_overflow, menu)
-        return true
-    }
-
-    override fun onOptionsItemSelected(item: MenuItem): Boolean {
-        if (item.itemId == R.id.dayNightMode) {
-            viewModel.toggleNightMode()
-        }
-        return true
-    }
-
-    override fun onPrepareOptionsMenu(menu: Menu?): Boolean {
-        if (isOnNightMode) {
-            menu?.findItem(R.id.dayNightMode)?.setIcon(R.drawable.ic_night_mode)
-        } else {
-            menu?.findItem(R.id.dayNightMode)?.setIcon(R.drawable.ic_light_mode)
-        }
-        return true
     }
 }

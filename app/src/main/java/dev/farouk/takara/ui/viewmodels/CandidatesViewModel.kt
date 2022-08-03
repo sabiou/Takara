@@ -4,13 +4,16 @@ import androidx.hilt.lifecycle.ViewModelInject
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.asLiveData
+import dagger.hilt.android.lifecycle.HiltViewModel
 import dev.farouk.takara.data.db.CandidateRepository
 import dev.farouk.takara.data.model.Candidate
+import javax.inject.Inject
 
 /**
  * Created by Farouk on 19/12/2020.
  */
-class CandidatesViewModel @ViewModelInject constructor(
+@HiltViewModel
+class CandidatesViewModel @Inject constructor(
     candidateRepository: CandidateRepository
 ): ViewModel() {
     // candidates

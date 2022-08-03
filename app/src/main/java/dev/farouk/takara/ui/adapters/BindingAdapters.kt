@@ -17,7 +17,7 @@ fun bindImageFromUrl(view: ImageView, imageUrl: String?) {
             transformations(CircleCropTransformation())
         }
     } else {
-        view.load(R.drawable.ic_baseline_account_circle_24) {
+        view.load("") {
             transformations(CircleCropTransformation())
         }
     }
